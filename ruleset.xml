@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<ruleset name="Sebastian">
+ <description>Livando CodingStandard</description>
+
+ <rule ref="Squiz.Classes.ClassFileName"/>
+ <rule ref="Squiz.Classes.SelfMemberReference"/>
+ <rule ref="Squiz.Classes.ValidClassName"/>
+
+ <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
+ <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>
+ <rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall"/>
+ <rule ref="Generic.CodeAnalysis.JumbledIncrementer"/>
+ <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>
+ <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>
+ <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
+ <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"/>
+
+ <rule ref="Generic.Commenting.Todo"/>
+ <rule ref="PEAR.Commenting.ClassComment"/>
+ <rule ref="PEAR.Commenting.FunctionComment"/>
+ <rule ref="PEAR.Commenting.InlineComment"/>
+ <rule ref="Squiz.Commenting.EmptyCatchComment"/>
+ <rule ref="Squiz.Commenting.FunctionCommentThrowTag"/>
+ <rule ref="Squiz.Commenting.VariableComment"/>
+ <rule ref="MySource.Commenting.FunctionComment"/>
+
+ <rule ref="Generic.ControlStructures.InlineControlStructure"/>
+
+ <rule ref="Generic.Files.LineEndings"/>
+ <rule ref="Generic.Files.LineLength"/>
+
+ <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
+ <rule ref="Generic.Formatting.MultipleStatementAlignment"/>
+ <rule ref="Generic.Formatting.NoSpaceAfterCast"/>
+ <rule ref="PEAR.Formatting.MultiLineAssignment"/>
+
+ <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
+ <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie"/>
+ <rule ref="PEAR.Functions.ValidDefaultValue"/>
+
+ <rule ref="Generic.NamingConventions.ConstructorName"/>
+ <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
+
+ <rule ref="PEAR.NamingConventions.ValidClassName"/>
+ <rule ref="PEAR.NamingConventions.ValidFunctionName"/>
+ <rule ref="PEAR.NamingConventions.ValidVariableName"/>
+
+ <rule ref="Squiz.Operators.ComparisonOperatorUsage"/>
+ <rule ref="Squiz.Operators.ValidLogicalOperators"/>
+
+ <rule ref="Squiz.PHP.CommentedOutCode"/>
+ <rule ref="Squiz.PHP.DisallowInlineIf"/>
+ <rule ref="Squiz.PHP.DisallowMultipleAssignments"/>
+ <rule ref="Squiz.PHP.DisallowSizeFunctionsInLoops"/>
+ <rule ref="Squiz.PHP.GlobalKeyword"/>
+ <rule ref="Squiz.PHP.InnerFunctions"/>
+ <rule ref="Squiz.PHP.NonExecutableCode"/>
+ <rule ref="Generic.PHP.DeprecatedFunctions"/>
+ <rule ref="Generic.PHP.DisallowShortOpenTag"/>
+ <rule ref="Generic.PHP.NoSilencedErrors"/>
+ <rule ref="Generic.PHP.LowerCaseConstant"/>
+
+ <rule ref="Squiz.Scope.MemberVarScope"/>
+ <rule ref="Squiz.Scope.MethodScope"/>
+ <rule ref="Squiz.Scope.StaticThisUsage"/>
+
+ <rule ref="Squiz.WhiteSpace.SemicolonSpacing"/>
+ <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
+ <rule ref="Generic.WhiteSpace.ScopeIndent"/>
+ <rule ref="PEAR.WhiteSpace.ScopeClosingBrace"/>
+ <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace"/>
+
+
+</ruleset>
